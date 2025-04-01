@@ -1,4 +1,4 @@
-# Franklins_Projects
+# Franklin's_Projects
 Repo storing my projects.
 
 My name is Franklin Wohnoutka I'm a junior at Drake Universiry.
