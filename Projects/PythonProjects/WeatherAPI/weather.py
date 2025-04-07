@@ -4,12 +4,12 @@ import requests
 import datetime
 import plotly.express as px
 
-# Obtains the data for our graph
+# Obtains the data for graph
 # OpenWeatherMap API Endpoint. Read about this here: https://openweathermap.org/appid
 API_ENDPOINT = "http://api.openweathermap.org/data/2.5/forecast"
-API_KEY = "d8376f88ec0d599bffa88b60e8f65956"  # Replace with your own API key
+API_KEY = ""  # Replace with your own API key
 
-#Pick your favorite zip code
+
 zip_code = "50311"
 
 # API parameters
@@ -23,22 +23,18 @@ response = requests.get(API_ENDPOINT, params=params)
 DATA = response.json()
 
 # Check if the response contains the necessary data. 
-# Sometimes the server isn't serving! That's part of life with APIs.
 if "list" not in DATA:
     print("Couldn't fetch the weather details.")
 
-#I make this intermediate variable because I might want to come back later and 
-    #use only *some* of the forecast items I get in the response,
-    #in which case relevant_forecasts will be a subset of DATA["list"].
+
 relevant_forecasts = DATA["list"]
 
 
 
-# If you're interested, take a look at how we are "rearranging" the response data to make it easier to use.
-# If you're not interested, make sure you at least understand what the output looks like so that you're able to use it properly!
+
 def format_forecast_data(relevant_forecasts):
     forecast_times = [datetime.datetime.utcfromtimestam3p(forecast["dt"]) for forecast in relevant_forecasts]
-    #You need to figure out what this should be, and make sure it works with the rest of your code, especially below.
+
     forecast_data = [x["main"] for x in relevant_forecasts]
     formatted_data = []
 
@@ -47,7 +43,7 @@ def format_forecast_data(relevant_forecasts):
         formatted_data[i]["time"] = forecast_times[i]
     return formatted_data
 
-#Very important to know how this data is structured.
+
 forecast_data = format_forecast_data(relevant_forecasts)
 
 
