@@ -79,3 +79,16 @@ With more time, improvements could include:
 Overall, the project is robust, well-structured, and fulfills all assignment requirements.  
 
 ---
+
+## How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/FranklinW10/Franklins_Projects.git
+2. Navigate to the battle simulation folder:
+   cd Franklins_Projects/Projects/Java_Projects/BattleSimulation
+3. Compile Java Files
+   javac *.java
+4. Run BattleDriver
+   java BattleDriver
+
