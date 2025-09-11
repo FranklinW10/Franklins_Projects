@@ -1,7 +1,7 @@
 # Franklin's Projects
 
 This repository contains a collection of my Computer Science, Data, and Physics projects.  
-I am a **Data Analytics, Mathematics, Computer Science, and Physics** student at **Drake University** (class of 2027), and this repo serves as a showcase of my work, experiments, and learning process.
+I am a **Data Analytics, Mathematics, Computer Science, and Physics** student at **Drake University** (class of 2027), and this repo serves to showcase my work, experiments, and learning.
 
 ---
 
@@ -52,8 +52,7 @@ Through these projects, I aim to:
 ---
 
 
-## Contact
-If you’d like to connect, feel free to reach out!  
+## Contact 
 - **Email:** Franklin.Wohnoutka@drake.edu
 - **LinkedIn:** https://www.linkedin.com/in/franklin-wohnoutka-626499330/
 
