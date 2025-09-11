@@ -6,24 +6,33 @@ I am a **Data Analytics, Mathematics, Computer Science, and Physics** student at
 ---
 
 ## Repository Structure
-The repository is organized into project folders. Each folder contains source code and (when needed) its own README with instructions.
+
+The repository is organized into project folders. Each folder contains source code and, when needed, its own README with instructions.
 
 - **Java Projects**
   - *Battle Simulation Game* — A text-based OOP game where a hero fights monsters with weapons, upgrades, and special abilities.
-- **Python / Jupyter Projects**
-  - *Baseball Data Analysis* — Scripts and notebooks using `pybaseball` and `pandas` to analyze MLB games.
+
+- **Machine Learning Projects**
+  - *Cause of College Alcohol Consumption* — Analyzes survey data to predict factors influencing alcohol consumption using machine learning techniques.
+  - *Image Categorization* — Classifies images using CNN and pre-trained models like ResNet, AlexNet, and VGGNet.
+
+- **Python Projects**
+  - *Pokemon Sort* — Sorts Pokémon based on different parameters such as height, weight, and stats.
+  - *Weather API* — Fetches and displays weather information using API calls.
   - *Monte Carlo Nuclear Physics Simulation* — Calculates critical mass and survival fraction in nuclear fission.
+
 - **Other Projects**
+  - *Database Creation* — Built and optimized a MySQL database from an external dataset, including queries and views.  
+  - *Data Visualization in R Studio* — Visualizes datasets using R for analysis and exploration.  
   - Additional experiments and coursework in physics, math, and analytics.
 
 *(This list will grow as I continue adding more projects.)*
 
 ---
-
 ## Technologies Used
 - **Languages:** Java, Python, R, HTML/CSS, SQL  
 - **Libraries/Frameworks:** Pandas, NumPy, Matplotlib, PyBaseball, JUnit  
-- **Tools:** Git/GitHub, AWS (RDS, EC2), Jupyter Notebooks  
+- **Tools:** Git/GitHub, Jupyter Notebooks  
 
 ---
 
