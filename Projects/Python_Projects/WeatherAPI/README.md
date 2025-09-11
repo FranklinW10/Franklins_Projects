@@ -8,7 +8,7 @@ A Python web application that fetches weather forecast data from the **OpenWeath
 
 ## Technologies
 
-- Python 3.x  
+- Python 3 
 - [Dash](https://dash.plotly.com/) — for building interactive web dashboards  
 - [Plotly](https://plotly.com/python/) — for plotting graphs  
 - [Requests](https://docs.python-requests.org/) — for API calls  
@@ -35,7 +35,7 @@ pip install dash plotly requests
 
 4. Run the app:
 ```bash
-python weather.py
+python3 weather.py
 ```
 
 
