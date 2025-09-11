@@ -22,7 +22,7 @@ Run directly in **Google Colab**:
 
 ---
 
-## 🔍 Key Features
+## Key Features
 
 - Preprocessing: resize, normalize, split data  
 - Models: custom CNN, ResNet, AlexNet, VGGNet  
@@ -31,7 +31,7 @@ Run directly in **Google Colab**:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Data augmentation (rotation, flipping, zoom)  
 - Explore additional pre-trained networks  
