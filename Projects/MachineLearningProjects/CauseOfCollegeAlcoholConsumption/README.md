@@ -1,3 +1,20 @@
+# Cause of College Alcohol Consumption
+
+This project analyzes factors influencing alcohol consumption among college students. Using machine learning techniques, it identifies key predictors and explores their impact on student drinking behavior. 
+More information on what is going on through the project is given in Google Colab.
+
+---
+
+## Technologies & Libraries
+
+- **Python 3.x**
+- **Jupyter Notebook / Google Colab**
+- **pandas** – data manipulation
+- **numpy** – numerical operations
+- **matplotlib / seaborn** – data visualization
+- **scikit-learn** – machine learning models
+
+---
 ## How to Run
 
 This project was created in **Google Colab**, so you can run it directly in the cloud without installing anything locally.
@@ -16,4 +33,4 @@ This project was created in **Google Colab**, so you can run it directly in the 
 
 5. Visualizations and results will appear directly in Colab.
 
-> Note: The notebook may fetch data from external sources, so an **active internet connection** is required.
+> Note: The notebook fetchs data from external sources, so an **active internet connection** is required.
