@@ -1,13 +1,13 @@
 # Franklin's Projects
 
 This repository contains a collection of my Computer Science, Data, and Physics projects.  
-I am a **Data Analytics, Mathematics, Computer Science, and Physics** student at **Drake University** (class of 2027), and this repo serves to showcase my work, experiments, and learning.
+I am a tripple major in Data Analytics, Mathematics and Computer Science with a minor in Pysics and I am currently a junior at **Drake University**. This repo serves to showcase my work, experiments, and learning.
 
 ---
 
 ## Repository Structure
 
-The repository is organized into project folders. Each folder contains source code and, when needed, its own README with instructions.
+The repository is organized into project folders which contain code and README with instructions.
 
 - **Java Projects**
   - *Battle Simulation Game* — A text-based OOP game where a hero fights monsters with weapons, upgrades, and special abilities.
@@ -19,7 +19,7 @@ The repository is organized into project folders. Each folder contains source co
 - **Python Projects**
   - *Pokemon Sort* — Sorts Pokémon based on different parameters such as height, weight, and stats.
   - *Weather API* — Fetches and displays weather information using API calls.
-  - *Monte Carlo Nuclear Physics Simulation* — Calculates critical mass and survival fraction in nuclear fission.
+  - *Nuclear Fission Physics Simulation* — Calculates critical mass and survival fraction in nuclear fission.
 
 - **Other Projects**
   - *Database Creation* — Built and optimized a MySQL database from an external dataset, including queries and views.  
