@@ -3,63 +3,86 @@
   <head>
     <meta charset="utf-8">
     <title>Franklin Wohnoutka</title>
-    <meta name="description" content="Franklin Wohnoutka's Project Portfolio">
+    <meta name="description" content="Franklin Wohnoutka's Portfolio">
     <meta name="author" content="Franklin Wohnoutka">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   </head>
   
   <body>
     <header id="header">
-      <img src="logo.png">
-      <h1>Franklin Wohnoutka</h1>
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#projects">projects</a></li>
-        <li><a href="#posters">posters</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
+      <div class="header-inner">
+        <div class="header-left">
+          <h1>Franklin Wohnoutka</h1>
+          <p class="subtitle">B.S. Computer Science, Mathematics & Data Analytics | Minor in Physics</p>
+          <p class="subtitle">Drake University — Expected Graduation: Fall 2027</p>
+          <div class="header-links">
+            <a href="mailto:Franklin.Wohnoutka@drake.edu">Franklin.Wohnoutka@drake.edu</a>
+            <a href="https://www.linkedin.com/in/franklin-wohnoutka-626499330/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/FranklinW10" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <div class="header-right">
+          <img src="headshot.jpg" alt="Franklin Wohnoutka" class="headshot">
+        </div>
+      </div>
+      <nav>
+        <ul class="main-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#posters">Posters</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
    
     <div id="container">
       <div class="inner">
         <div id="content"> 
-            <div id="posters" class="content-region hide">
-                 <h2>Research Posters</h2>
-
-                    <h3>Poster Title Here</h3>
-                    <p>Brief description of what this research is about.</p>
-                    <img src="poster1.png" style="width:100%; margin-bottom:20px;">
-
-                    <h3>Poster Title Here</h3>
-                    <p>Brief description.</p>
-                    <img src="poster2.png" style="width:100%; margin-bottom:20px;">
-
-                    <h3>Poster Title Here</h3>
-                    <p>Brief description.</p>
-                    <img src="poster3.png" style="width:100%; margin-bottom:20px;">
-
-            </div>
           
           <div id="home" class="content-region hide">
-            <h2>Home</h2>
+            <h2>Welcome</h2>
             <p>
-              Welcome to my portfolio! This portfolio/repository contains a collection of my Computer Science, Data Analytics, Mathematics and Physics projects.  
-              I am a tripple major in Data Analytics, Mathematics and Computer Science with a minor in Pysics and I am currently a junior at **Drake University**. This repo serves to showcase my work, experiments, and learning.
-              I have with experience in Java, Python, 
-              C, R, machine learning and much more.
+              Hi, I'm Franklin — a student at Drake University studying Computer Science, 
+              Mathematics, and Data Analytics with a minor in Physics. I'm passionate about 
+              building software, analyzing data, and applying computational methods to 
+              real-world problems. Take a look at my projects and research below.
             </p>
+            <h3>Skills</h3>
+            <div class="skills">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">R</span>
+              <span class="skill-tag">Machine Learning</span>
+              <span class="skill-tag">Data Visualization</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">LaTeX</span>
+              <span class="skill-tag">Fortran</span>
+            </div>
           </div>
           
           <div id="about" class="content-region hide">
-            <h2>About</h2>
+            <h2>About Me</h2>
             <p>
-              Add a description about yourself here.
+              I am a junior at Drake University pursuing a triple major in Computer Science, 
+              Mathematics, and Data Analytics, with a minor in Physics. I enjoy working on 
+              projects that sit at the intersection of computation and physical science, 
+              including simulation, machine learning, and data analysis.
+            </p>
+            <p>
+              Outside of academics I have worked on research with Drake University's MISSFIT 
+              computational group, where I contributed to a particle tracking simulation 
+              written in C that models radiation interactions with spacecraft.
+            </p>
+            <p>
+              I am always looking for new opportunities to apply my skills — feel free to 
+              reach out via email or LinkedIn.
             </p>
           </div>
 
@@ -68,66 +91,118 @@
 
             <h3>Machine Learning</h3>
 
-            <h4>Baseball ML Predictor</h4>
-            <p>A machine learning model for predicting baseball game outcomes.</p>
-            <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/MachineLearningProjects/BaseballMLPred">View on GitHub</a>
+            <div class="project-card">
+              <h4>Baseball ML Predictor</h4>
+              <p>A machine learning model for predicting baseball game outcomes.</p>
+              <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/MachineLearningProjects/BaseballMLPred" target="_blank">View on GitHub →</a>
+            </div>
 
-            <h4>Cause of College Alcohol Consumption</h4>
-            <p>A machine learning analysis of factors contributing to college alcohol consumption.</p>
-            <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/MachineLearningProjects/CauseOfCollegeAlcoholConsumption">View on GitHub</a>
+            <div class="project-card">
+              <h4>Cause of College Alcohol Consumption</h4>
+              <p>A machine learning analysis of factors contributing to college alcohol consumption.</p>
+              <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/MachineLearningProjects/CauseOfCollegeAlcoholConsumption" target="_blank">View on GitHub →</a>
+            </div>
 
-            <h4>Image Categorization</h4>
-            <p>An image classification project using machine learning.</p>
-            <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/MachineLearningProjects/Image%20Categorization">View on GitHub</a>
+            <div class="project-card">
+              <h4>Image Categorization</h4>
+              <p>An image classification project using machine learning.</p>
+              <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/MachineLearningProjects/Image%20Categorization" target="_blank">View on GitHub →</a>
+            </div>
 
             <h3>Python</h3>
 
-            <h4>Modern Physics Fission Lab</h4>
-            <p>A Python project for analyzing nuclear fission data from a modern physics lab.</p>
-            <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Python_Projects/ModernPhysicsFissionLab">View on GitHub</a>
+            <div class="project-card">
+              <h4>Modern Physics Fission Lab</h4>
+              <p>A Python project for analyzing nuclear fission data from a modern physics lab.</p>
+              <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Python_Projects/ModernPhysicsFissionLab" target="_blank">View on GitHub →</a>
+            </div>
 
-            <h4>Pokemon Sort</h4>
-            <p>A Python project for sorting and organizing Pokemon data.</p>
-            <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Python_Projects/PokemonSort">View on GitHub</a>
+            <div class="project-card">
+              <h4>Pokemon Sort</h4>
+              <p>A Python project for sorting and organizing Pokemon data.</p>
+              <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Python_Projects/PokemonSort" target="_blank">View on GitHub →</a>
+            </div>
 
-            <h4>Weather API</h4>
-            <p>A Python application that fetches and displays weather data using an API.</p>
-            <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Python_Projects/WeatherAPI">View on GitHub</a>
+            <div class="project-card">
+              <h4>Weather API</h4>
+              <p>A Python application that fetches and displays weather data using an API.</p>
+              <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Python_Projects/WeatherAPI" target="_blank">View on GitHub →</a>
+            </div>
 
             <h3>Java</h3>
 
-            <h4>Battle Simulator</h4>
-            <p>A Java-based battle simulation game.</p>
-            <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Java_Projects/Battle_Simulator">View on GitHub</a>
+            <div class="project-card">
+              <h4>Battle Simulator</h4>
+              <p>A Java-based battle simulation game.</p>
+              <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Java_Projects/Battle_Simulator" target="_blank">View on GitHub →</a>
+            </div>
 
             <h3>Other</h3>
 
-            <h4>Database Creation</h4>
-            <p>A project focused on designing and building a database.</p>
-            <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Other_Projects/DataBaseCreation">View on GitHub</a>
+            <div class="project-card">
+              <h4>Database Creation</h4>
+              <p>A project focused on designing and building a database.</p>
+              <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Other_Projects/DataBaseCreation" target="_blank">View on GitHub →</a>
+            </div>
 
-            <h4>Data Visualization in R Studio</h4>
-            <p>A data visualization project built in R Studio.</p>
-            <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Other_Projects/DataVisualizationInRStudioProject">View on GitHub</a>
+            <div class="project-card">
+              <h4>Data Visualization in R Studio</h4>
+              <p>A data visualization project built in R Studio.</p>
+              <a href="https://github.com/FranklinW10/Franklins_Projects/tree/main/Projects/Other_Projects/DataVisualizationInRStudioProject" target="_blank">View on GitHub →</a>
+            </div>
+
+          </div>
+
+          <div id="posters" class="content-region hide">
+            <h2>Research Posters</h2>
+
+            <div class="project-card">
+              <h3>Poster Title Here</h3>
+              <p>Brief description of the research.</p>
+              <img src="poster1.png" class="poster" alt="Research Poster 1">
+            </div>
+
+            <div class="project-card">
+              <h3>Poster Title Here</h3>
+              <p>Brief description of the research.</p>
+              <img src="poster2.png" class="poster" alt="Research Poster 2">
+            </div>
+
+            <div class="project-card">
+              <h3>Poster Title Here</h3>
+              <p>Brief description of the research.</p>
+              <img src="poster3.png" class="poster" alt="Research Poster 3">
+            </div>
 
           </div>
           
           <div id="contact" class="content-region hide">
             <h2>Contact</h2>
-            <p>
-              Add your contact information here, such as email or LinkedIn.
-            </p>
+            <p>Feel free to reach out — I am always open to discussing projects, research, or opportunities.</p>
+            <div class="contact-links">
+              <div class="contact-item">
+                <strong>Email</strong>
+                <a href="mailto:Franklin.Wohnoutka@drake.edu">Franklin.Wohnoutka@drake.edu</a>
+              </div>
+              <div class="contact-item">
+                <strong>LinkedIn</strong>
+                <a href="https://www.linkedin.com/in/franklin-wohnoutka-626499330/" target="_blank">linkedin.com/in/franklin-wohnoutka</a>
+              </div>
+              <div class="contact-item">
+                <strong>GitHub</strong>
+                <a href="https://github.com/FranklinW10" target="_blank">github.com/FranklinW10</a>
+              </div>
+            </div>
           </div>
           
         </div>
       </div>
     </div>
 
-    <footer>  
-      Franklin Wohnoutka
+    <footer>
+      <p>© 2026 Franklin Wohnoutka · Drake University</p>
     </footer>
     
     <script type="text/javascript" src="script.js"></script>
-    
   </body>
 </html>
