@@ -48,22 +48,20 @@ p {
   background-color: #ffffff;
   border-bottom: 1px solid #e0e0e0;
   padding: 40px 60px 0 60px;
-  text-align: center;
 }
 
 .header-inner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   margin-bottom: 25px;
+  gap: 40px;
 }
 
 .header-left {
   flex: 1;
-}
-
-.header-left h1 {
-  margin-bottom: 5px;
+  text-align: center;
 }
 
 .headshot {
@@ -73,22 +71,7 @@ p {
   object-fit: cover;
   object-position: center top;
   border: 3px solid #e0e0e0;
-  margin-bottom: 20px;
-}
-
-h1 {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 3.6rem;
-  font-weight: 500;
-  color: #222222;
-  letter-spacing: 0.05rem;
-  margin-bottom: 8px;
-}
-
-.subtitle {
-  color: #666666;
-  font-size: 1.4rem;
-  margin-bottom: 4px;
+  flex-shrink: 0;
 }
 
 .header-links {
@@ -109,6 +92,7 @@ nav {
 
 ul.main-menu {
   justify-content: center;
+  flex-wrap: nowrap;
 }
 
 ul.main-menu li a {
