@@ -116,6 +116,7 @@ p {
 /* Navigation */
 nav {
   margin-top: 20px;
+  align-items: left;
 }
 
 ul.main-menu {
