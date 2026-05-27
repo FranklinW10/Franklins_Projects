@@ -294,18 +294,20 @@ html{
 
 /* thinner sticky navigation */
 #navbar{
-    position:sticky;
-    top:0;
+    position: fixed;
+    top: 0;
+    left: 0;
 
-    width:100%;
+    width: 100%;
 
-    margin:0;
-    padding:12px 0;
+    background: rgba(255,255,255,.95);
+    backdrop-filter: blur(8px);
 
-    background:white;
-    border-bottom:1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
 
-    z-index:1000;
+    z-index: 1000;
+
+    padding: 12px 0;
 }
 
 .nav-container{
