@@ -296,27 +296,42 @@ html{
 #navbar{
     position:sticky;
     top:0;
+
     width:100%;
+
+    margin:0;
+    padding:12px 0;
 
     background:white;
     border-bottom:1px solid #e0e0e0;
 
     z-index:1000;
-
-    padding:12px 0;
 }
 
 .nav-container{
     display:flex;
     align-items:center;
 
+    width:100%;
     max-width:1200px;
 
-    margin:auto;
+    margin:0 auto;
     padding:0 30px;
 
     gap:40px;
 }
+
+/* Remove default spacing on list */
+.main-menu{
+    display:flex;
+    gap:25px;
+
+    list-style:none;
+
+    margin:0;
+    padding:0;
+}
+
 
 .nav-name{
     font-size:1.8rem;
@@ -326,18 +341,6 @@ html{
     white-space:nowrap;
 }
 
-.main-menu{
-    display:flex;
-
-    justify-content:flex-start;
-
-    gap:25px;
-
-    list-style:none;
-
-    margin:0;
-    padding:0;
-}
 
 .main-menu a{
     color:#666;
