@@ -73,6 +73,7 @@ p {
 
 /* Header */
 #header {
+    margin-top: 25px;
   background: white;
   border-bottom: 1px solid #e0e0e0;
   padding: 40px 20px;
@@ -353,10 +354,20 @@ html{
 /* add spacing between sections */
 
 .content-region{
-    margin-bottom:80px;
-    scroll-margin-top:70px;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+
+    border-bottom: 1px solid #e6e6e6;
+
+    scroll-margin-top: 90px;
 }
 
+
+/* Remove line after last section */
+
+.content-region:last-child{
+    border-bottom:none;
+}
 
 /* remove old hide behavior */
 
