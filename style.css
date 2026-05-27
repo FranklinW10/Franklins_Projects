@@ -78,7 +78,6 @@ p {
     align-items: center;
     justify-content: center;
 
-    margin-top: 25px;
 
     padding: 40px;
 
@@ -302,7 +301,7 @@ html{
     margin: 0;
     padding: 8px 0;
 
-    background: #e6e6e6;
+    background: white;
     border-bottom: 1px solid #e0e0e0;
 
     z-index: 1000;
@@ -312,7 +311,7 @@ html{
 
 #header{
     padding:30px 40px;
-    background:#e6e6e6;
+    background:white;
 }
 
 
