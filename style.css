@@ -176,14 +176,14 @@ ul.main-menu li a.active {
 }
 
 
-#home{
+#about{
     background:white;
     padding:90px 0;
     position:relative;
 }
 
 /* full-width white background */
-#home::before{
+#about::before{
     content:"";
     position:absolute;
 
