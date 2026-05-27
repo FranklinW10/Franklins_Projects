@@ -157,12 +157,11 @@ ul.main-menu li a.active {
   margin: auto;
   padding: 40px 20px;
 }
-
 #content {
-  background: white;
-  padding: 40px 50px;
-  border: 1px solid #e0e0e0;
-  border-radius: 6px;
+  padding: 40px 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
 }
 
 /* Project cards */
