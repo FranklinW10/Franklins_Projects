@@ -368,6 +368,11 @@ footer p {
         text-align:center;
     }
     */
+    #navbar{
+        text-align:center;
+        min-height:auto;
+        padding:60px 20px;
+    }
 
 
     #header{
