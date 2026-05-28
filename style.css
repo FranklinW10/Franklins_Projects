@@ -175,6 +175,10 @@ ul.main-menu li a.active {
   border-radius: 0;
 }
 #home {
+  margin-top: -60px;
+  margin-bottom: -60px;
+}
+#home {
   background-color: #f8f9fa;
   padding: 80px 40px;
   position: relative;
