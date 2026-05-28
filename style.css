@@ -352,6 +352,11 @@ footer p {
 /* Mobile responsiveness */
 
 @media(max-width:768px){
+    /*
+    #navbar{
+        min-height:auto;
+        padding:60px 20px;
+    }
 
     #header{
         min-height:auto;
@@ -362,7 +367,32 @@ footer p {
         flex-direction:column-reverse;
         text-align:center;
     }
+    */
 
+
+    #header{
+        min-height:auto;
+
+        padding:
+            120px 20px 60px 20px;
+    }
+
+    .header-inner{
+        flex-direction:column-reverse;
+        text-align:center;
+
+        gap:25px;
+    }
+
+    .header-links{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .main-menu{
+        gap:15px;
+        flex-wrap:wrap;
+    }
 }
 /* smooth scrolling */
 
