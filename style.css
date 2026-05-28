@@ -176,12 +176,11 @@ ul.main-menu li a.active {
 }
 
 
-
 #home {
   background-color: #f8f9fa;
   padding: 80px 40px;
   position: relative;
-  margin-top: -60px;
+  margin-top: -80px;
   margin-bottom: -60px;
   border-bottom: none;
 }
