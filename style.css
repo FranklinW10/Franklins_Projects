@@ -294,7 +294,7 @@ p {
   position: relative;
 }
 
-#home::projects {
+#projects::before  {
   content: "";
   position: absolute;
   top: 0;
