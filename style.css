@@ -268,8 +268,10 @@ p {
 }
 
 #home {
-  background-color: #f8f9fa;
+  background-color: white;
   border-bottom: none;
+  padding: 80px 40px;
+  position: relative;
 }
 
 #home::before {
@@ -280,25 +282,10 @@ p {
   width: 100vw;
   height: 100%;
   transform: translateX(-50%);
-  background: #f8f9fa;
-  z-index: -1;
-}
-
-#about {
-  border-bottom: none;
-}
-
-#about::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 100vw;
-  height: 100%;
-  transform: translateX(-50%);
   background: white;
   z-index: -1;
 }
+
 
 #posters {
   border-bottom: none;
