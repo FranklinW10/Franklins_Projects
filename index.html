@@ -374,6 +374,22 @@ $(window).on('scroll', function(){
 });
 
 </script>
+<div class="lightbox" id="lightbox">
+  <img id="lightbox-img" src="" alt="Expanded poster">
+</div>
+
+<script>
+  document.querySelectorAll('.poster').forEach(function(img) {
+    img.addEventListener('click', function() {
+      document.getElementById('lightbox-img').src = this.src;
+      document.getElementById('lightbox').classList.add('active');
+    });
+  });
+
+  document.getElementById('lightbox').addEventListener('click', function() {
+    this.classList.remove('active');
+  });
+</script>
 
 </body>
 </html>
