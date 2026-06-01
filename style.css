@@ -568,5 +568,8 @@ footer p {
   .content-region {
     padding: 60px 20px;
   }
+    .contact-grid {
+    grid-template-columns: 1fr;
+  }
 
 }
