@@ -65,19 +65,13 @@ p {
   width: 100%;
   margin: 0;
   padding: 12px 0;
-    background: #1e2229;
-  border-bottom: none;
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid #e0e0e0;
   z-index: 1000;
 }
-.nav-name { color: white; }
-.main-menu a { color: rgba(255,255,255,0.7); }
-.main-menu a:hover { color: white; }
-.main-menu a.active {
-  color: white;
-  border-bottom-color: #2a5caa;
-}
+
 
 
 
