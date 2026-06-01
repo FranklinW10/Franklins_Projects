@@ -521,9 +521,10 @@ footer p {
 
 /* Mobile */
 @media (max-width: 768px) {
-  #header {
-    padding: 60px 20px;
-    min-height: auto;
+
+    #header {
+    padding: 80px 20px 60px 20px;
+    min-height: 80vh;
   }
 
   .header-inner {
