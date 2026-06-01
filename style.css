@@ -543,4 +543,9 @@ footer p {
   .content-region {
     padding: 60px 20px;
   }
+  .contact-row {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
 }
