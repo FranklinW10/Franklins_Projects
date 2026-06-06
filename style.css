@@ -94,7 +94,7 @@ p {
 }
 
 .nav-name {
-  font-size: 1.8rem;
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
   font-weight: 500;
   font-family: "Raleway", sans-serif;
   color: #222;
@@ -107,6 +107,7 @@ p {
 }
 
 .main-menu a {
+  font-size: clamp(1.1rem, 1.5vw, 1.5rem);
   color: #666;
   text-decoration: none;
   font-size: 1.5rem;
@@ -521,73 +522,47 @@ footer p {
 
 /* Mobile */
 @media (max-width: 768px) {
-    .nav-container {
-    padding: 0 15px;
-    gap: 15px;
-  }
-
-  .nav-name {
-    font-size: 1.4rem;
-  }
-
-  .main-menu a {
-    font-size: 1.3rem;
-  }
-
-  .main-menu {
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-
-    #header {
+  #header {
     padding: 80px 20px 60px 20px;
     min-height: 80vh;
   }
-
   .header-inner {
     flex-direction: column-reverse;
     text-align: center;
     gap: 25px;
   }
-
   .header-left h1 {
     font-size: 3.6rem;
     border-left: none;
     padding-left: 0;
     text-align: center;
   }
-
   .badges {
     justify-content: center;
     padding-left: 0;
   }
-
   .subtitle {
     padding-left: 0;
     text-align: center;
   }
-
   .header-links {
     justify-content: center;
     padding-left: 0;
     flex-wrap: wrap;
   }
-
   .headshot {
     width: 160px;
     height: 160px;
   }
-
   .main-menu {
     gap: 15px;
     flex-wrap: wrap;
   }
-
   .content-region {
     padding: 60px 20px;
   }
-    .contact-grid {
+  .contact-grid {
     grid-template-columns: 1fr;
   }
-
 }
+
