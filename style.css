@@ -521,6 +521,23 @@ footer p {
 
 /* Mobile */
 @media (max-width: 768px) {
+    .nav-container {
+    padding: 0 15px;
+    gap: 15px;
+  }
+
+  .nav-name {
+    font-size: 1.4rem;
+  }
+
+  .main-menu a {
+    font-size: 1.3rem;
+  }
+
+  .main-menu {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
 
     #header {
     padding: 80px 20px 60px 20px;
