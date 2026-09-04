@@ -36,7 +36,9 @@ body {
 }
 
 .inline-logo {
-  width: auto;
+    width: 100px;      /* pick whatever size looks right */
+  height: 100px;
+  
   aspect-ratio: 1 / 1;
   border-radius: 22%;
   object-fit: cover;
