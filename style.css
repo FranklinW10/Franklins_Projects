@@ -22,12 +22,12 @@ body {
   background-color: #e8ebee;
 }
 .inline-logo {
+  float: right;
   height: 1em;
   width: 1em;
   border-radius: 22%;
-  vertical-align: middle;
   margin-left: 8px;
-  margin-top: -0.15em;
+  margin-bottom: 2px;
 }
 
 /* Links */
