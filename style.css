@@ -21,6 +21,14 @@ body {
   color: #333;
   background-color: #e8ebee;
 }
+.inline-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-top: -4px; /* nudges it to visually center against the text baseline */
+}
 
 /* Links */
 a {
