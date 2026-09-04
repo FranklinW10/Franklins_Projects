@@ -21,13 +21,23 @@ body {
   color: #333;
   background-color: #e8ebee;
 }
+.card-body {
+  display: flex;
+  align-items: stretch;
+  gap: 16px;
+}
+
+.card-body p {
+  flex: 1;
+  margin: 0;
+}
+
 .inline-logo {
-  float: right;
-  height: 1em;
-  width: 1em;
+  width: auto;
+  aspect-ratio: 1 / 1;
   border-radius: 22%;
-  margin-left: 8px;
-  margin-bottom: 2px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 /* Links */
