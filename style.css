@@ -33,11 +33,13 @@ body {
 }
 
 .inline-logo {
+  height: 100%;
   width: auto;
   aspect-ratio: 1 / 1;
   border-radius: 22%;
   object-fit: cover;
   flex-shrink: 0;
+  display: block;
 }
 
 /* Links */
