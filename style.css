@@ -13,15 +13,13 @@ html {
   display: flex;
   width: 100vw;
   margin: 24px calc(50% - 50vw); /* breaks out of the centered container */
-  gap: 0;
 }
 
 .project-strip img {
-  flex: 1 1 0;
-  min-width: 0;
-  height: 220px;
-  object-fit: cover;
   display: block;
+  flex: 1 1 0; /* JS overrides flex-grow with each image's aspect ratio */
+  min-width: 0;
+  height: auto; /* height follows from the width, so nothing is cropped */
 }
 
 /* Prevents a horizontal scrollbar caused by 100vw including the scrollbar width */
@@ -30,14 +28,17 @@ body {
   overflow-x: clip;
 }
 
-/* On phones, switch to a 2x2 grid so the images stay readable */
+/* On phones: natural-size images in a row you can swipe through */
 @media (max-width: 600px) {
   .project-strip {
-    flex-wrap: wrap;
+    width: auto;
+    margin: 24px 0;
+    overflow-x: auto;
   }
   .project-strip img {
-    flex: 1 1 50%;
+    flex: 0 0 auto !important;
     height: 140px;
+    width: auto;
   }
 }
 
