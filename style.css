@@ -9,9 +9,22 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+.project-strip {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+
+.project-strip img {
+  flex: 1 1 200px;
+  max-width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   font-size: 1.5rem;
@@ -54,7 +67,12 @@ a:focus {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 1.5rem;
   line-height: 1.2;
@@ -65,11 +83,20 @@ h1 {
   font-family: "Playfair Display", Georgia, serif;
   font-size: 3.6rem;
   font-weight: 500;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
 }
-h2 { font-size: 2.6rem; }
-h3 { font-size: 2rem; margin-top: 3rem; }
-h4 { font-size: 1.7rem; font-weight: 500; margin-bottom: .5rem; }
+h2 {
+  font-size: 2.6rem;
+}
+h3 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+h4 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
 
 p {
   margin-bottom: 1.5rem;
@@ -89,9 +116,6 @@ p {
   border-bottom: 1px solid #e0e0e0;
   z-index: 1000;
 }
-
-
-
 
 .nav-container {
   display: flex;
@@ -130,7 +154,9 @@ p {
   text-decoration: none;
   font-size: 1.5rem;
 }
-.main-menu a:hover { color: #222; }
+.main-menu a:hover {
+  color: #222;
+}
 .main-menu a.active {
   color: #222;
   border-bottom: 2px solid #2a5caa;
@@ -138,7 +164,6 @@ p {
 
 /* Header — full viewport height */
 #header {
-    
   min-height: calc(100vh - 50px);
   margin-top: 20px;
   padding: 80px;
@@ -148,7 +173,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-    margin-left: 0;
+  margin-left: 0;
   margin-right: 0;
   width: 100%;
 }
@@ -196,7 +221,7 @@ p {
 .header-left h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   font-size: 5.5rem;
   margin-bottom: 12px;
   padding-left: 20px;
@@ -242,7 +267,7 @@ p {
   border: 1px solid #2a5caa;
   padding: 6px 18px;
   border-radius: 20px;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .header-links a:hover {
@@ -265,7 +290,9 @@ p {
 }
 
 /* Main container */
-#container { width: 100%; }
+#container {
+  width: 100%;
+}
 
 .inner {
   max-width: 860px;
@@ -336,7 +363,7 @@ p {
   z-index: 1;
   animation: bounce 2s infinite;
   opacity: 0.7;
-  transition: opacity .2s;
+  transition: opacity 0.2s;
 }
 
 .scroll-arrow:hover {
@@ -345,10 +372,14 @@ p {
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(8px); }
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(8px);
+  }
 }
-
 
 #projects {
   background-color: #f0f4ff;
@@ -357,7 +388,7 @@ p {
   position: relative;
 }
 
-#projects::before  {
+#projects::before {
   content: "";
   position: absolute;
   top: 0;
@@ -392,12 +423,14 @@ p {
   margin-top: 15px;
   margin-bottom: 10px;
   cursor: zoom-in;
-  transition: transform .2s ease, box-shadow .2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .poster:hover {
   transform: scale(1.01);
-  box-shadow: 0 4px 16px rgba(0,0,0,.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 .lightbox {
@@ -407,7 +440,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,.85);
+  background: rgba(0, 0, 0, 0.85);
   z-index: 2000;
   cursor: zoom-out;
   align-items: center;
@@ -422,7 +455,7 @@ p {
   max-width: 90%;
   max-height: 90vh;
   border-radius: 4px;
-  box-shadow: 0 8px 40px rgba(0,0,0,.5);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
 }
 /* Project cards */
 .project-card {
@@ -431,17 +464,21 @@ p {
   border-radius: 6px;
   padding: 20px 25px;
   margin-bottom: 16px;
-  transition: box-shadow .2s ease;
+  transition: box-shadow 0.2s ease;
 }
 
 .project-card:hover {
-  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.project-card h4 { margin-bottom: 6px; }
+.project-card h4 {
+  margin-bottom: 6px;
+}
 
 .project-card p,
-.project-card a { font-size: 1.4rem; }
+.project-card a {
+  font-size: 1.4rem;
+}
 
 /* Skills */
 .skills {
@@ -491,7 +528,7 @@ hr {
 .contact-item strong {
   font-size: 1.3rem;
   text-transform: uppercase;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
   color: #999;
 }
 
@@ -510,8 +547,12 @@ footer p {
 }
 
 /* Utility */
-.hide { display: none; }
-.show { display: block; }
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
 
 /* Contact */
 #contact {
@@ -532,10 +573,10 @@ footer p {
 }
 
 .contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 24px;
-    margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 20px;
 }
 
 /* Mobile */
@@ -583,4 +624,3 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
-
