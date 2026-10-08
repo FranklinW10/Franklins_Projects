@@ -58,12 +58,17 @@ body {
     align-items: start;
     width: auto;
     margin: 24px 0;
+    margin-bottom: -10px;
   }
   .project-strip img {
     flex: none !important; /* neutralizes the JS-set flex-grow */
     width: 100%;
     height: auto;
   }
+}
+.strip-caption {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 body {
