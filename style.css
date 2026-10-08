@@ -12,7 +12,7 @@ html {
 .project-strip {
   display: flex;
   width: 100vw;
-  margin: 100px calc(50% - 50vw); /* breaks out of the centered container */
+  margin: 60px calc(50% - 50vw); /* breaks out of the centered container */
 }
 
 .project-strip img {
@@ -31,14 +31,16 @@ body {
 /* On phones: natural-size images in a row you can swipe through */
 @media (max-width: 600px) {
   .project-strip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
     width: auto;
     margin: 24px 0;
-    overflow-x: auto;
   }
   .project-strip img {
-    flex: 0 0 auto !important;
-    height: 140px;
-    width: auto;
+    flex: none !important; /* neutralizes the JS-set flex-grow */
+    width: 100%;
+    height: auto;
   }
 }
 
