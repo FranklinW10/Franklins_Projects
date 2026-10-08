@@ -4,7 +4,7 @@
 *::after {
   box-sizing: border-box;
 }
-
+/*
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -14,16 +14,40 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
-  width: 100vw;
-  margin: 50px calc(50% - 50vw); /* breaks out of the centered container */
+  gap: 12px;
+  width: min(90%, 1000px);
+  margin: 50px auto;
 }
 
 .project-strip img {
   display: block;
-  flex: none !important; /* ignores the JS-set flex-grow, which no longer applies */
+  flex: none !important; 
   width: 100%;
   min-width: 0;
-  height: auto; /* height follows from the width, so nothing is cropped */
+  height: auto; 
+}
+*/
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+.project-strip {
+  display: flex;
+  width: 100vw;
+  margin: 60px calc(50% - 50vw);
+}
+
+.project-strip img {
+  display: block;
+  flex: 1 1 0;
+  min-width: 0;
+  height: auto;
+}
+
+html,
+body {
+  overflow-x: clip;
 }
 
 /* On phones: natural-size images in a row you can swipe through */
